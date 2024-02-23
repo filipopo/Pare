@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pare</string>
+    <string name="roll_button_text">Baci za sve</string>
+    <string name="roll_button_player_text">Baci za P%1$d</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="player_last">P%1$d zadnje bacanje: %2$d</string>
+    <string name="player_total">P%1$d ukupno: %2$d</string>
+    <string name="logo">Las Vegas</string>
+    <string name="dice">kocka</string>
+    <string name="setup_button_text">setup</string>
+    <string name="setup_dice">Unesite broj kocki</string>
+    <string name="setup_players">Unesite broj igraca</string>
+    <string name="text_welcome">"Dobrodosli u Las Vegas Dicee aplikaciju!
+Da bi ste poceli, unesti broj igraca i kockica
+onda kliknite setup dugme na dnu ove stranice"</string>
+    <string name="incorrect_player_count">Broj igraca mora biti izmedju 1 i 99</string>
+    <string name="incorrect_dice_count">Broj kocki mora biti izmedju 1 i 6</string>
+    <string name="incorrect_input">Morate uneti broj igraca i kocki</string>
+    <string name="continue_button_text">Nastavite igru</string>
+    <string name="resetup_button_text">Vratite se na podesavanja</string>
+    <string name="back_text">Igra je pauzirana</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pare</string>
+    <string name="roll_button_text">Roll for all</string>
+    <string name="roll_button_player_text">Roll for P%1$d</string>
+    <string name="reset_button_text">Reset</string>
+    <string name="player_last">P%1$d last roll: %2$d</string>
+    <string name="player_total">P%1$d total: %2$d</string>
+    <string name="logo">Las Vegas</string>
+    <string name="dice">dice</string>
+    <string name="setup_button_text">setup</string>
+    <string name="setup_dice">Enter amount of dice</string>
+    <string name="setup_players">Enter amount of players</string>
+    <string name="text_welcome">"Welcome to the Las Vegas Dicee application!
+To get started, input the amount of players and dice
+then hit the setup button on the bottom of this page"</string>
+    <string name="incorrect_player_count">The amount of players must be between 1 and 99</string>
+    <string name="incorrect_dice_count">The amount of dice must be between 1 and 6</string>
+    <string name="incorrect_input">You have to enter the amount of players and dice</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="continue_button_text">Continue game</string>
+    <string name="resetup_button_text">Back to setup screen</string>
+    <string name="back_text">The game is paused</string>
+</resources>
