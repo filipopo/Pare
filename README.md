@@ -15,7 +15,7 @@ Clicking on the reset button ends the game and finds out who the winner is, prom
 </p>
 The application also works in landscape mode and tells when the winning score is a tie (by which players)
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/7200e4cd-6e99-4622-a46f-ce1307646618" width="500" alt="main screen landscape">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/7200e4cd-6e99-4622-a46f-ce1307646618" width="500" alt="main screen landscape"><br>
   <img src="https://github.com/filipopo/Pare/assets/4060824/78cc4492-394e-48d8-b9b3-f38dc1ca5456" width="500" alt="main screen landscape roll scrolled">
 </p>
 The game can be paused at any time by using the back button, when the game is paused or won the roll buttons don't work
