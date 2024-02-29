@@ -39,6 +39,7 @@ class SetupPauseFragment : Fragment() {
                 mainFragment.setClickableButtons(true)
 
                 if (model.winner !== null) {
+                    model.winner = null
                     model.players.reset()
                     mainFragment.dataChanged(0, model.players.players.size, 0)
                 }
