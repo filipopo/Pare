@@ -1,8 +1,8 @@
 # Dicee
 A dice rolling application with support for up to 99 players and 6 dice, when launching the application you are greeted by a setup screen where the input is validated
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/167eaad9-94e0-4769-a3f1-95545f162140" width="250" alt="setup screen">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/9b031ae9-2df0-447a-8fbf-0a5371ec9a45" width="250" alt="setup screen validation">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/0915f420-3088-4f7c-a1eb-a986872609f7" width="250" alt="setup screen">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/c20257ce-3645-496b-80bb-f929279dcf46" width="250" alt="setup screen validation">
 </p>
 The main activity after completing the setup is a list of players with their current roll and total score, players can roll in sequence one by one or use the roll for all button which will roll for all players which haven't already rolled in that round, the list of players is scrollable
 <p float="left">
