@@ -21,4 +21,7 @@ then hit the setup button on the bottom of this page"</string>
     <string name="continue_button_text">Continue game</string>
     <string name="resetup_button_text">Back to setup screen</string>
     <string name="back_text">The game is paused</string>
+    <string name="text_languages">Choose a language</string>
+    <string name="language_english">English</string>
+    <string name="langauge_serbian">Serbian</string>
 </resources>

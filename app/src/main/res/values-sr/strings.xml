@@ -10,14 +10,17 @@
     <string name="dice">kocka</string>
     <string name="setup_button_text">setup</string>
     <string name="setup_dice">Unesite broj kocki</string>
-    <string name="setup_players">Unesite broj igraca</string>
-    <string name="text_welcome">"Dobrodosli u Las Vegas Dicee aplikaciju!
-Da bi ste poceli, unesti broj igraca i kockica
+    <string name="setup_players">Unesite broj igrača</string>
+    <string name="text_welcome">"Dobrodošli u Las Vegas Dicee aplikaciju!
+Da bi ste počeli, unesti broj igrača i kockica
 onda kliknite setup dugme na dnu ove stranice"</string>
-    <string name="incorrect_player_count">Broj igraca mora biti izmedju 1 i 99</string>
+    <string name="incorrect_player_count">Broj igrača mora biti izmedju 1 i 99</string>
     <string name="incorrect_dice_count">Broj kocki mora biti izmedju 1 i 6</string>
-    <string name="incorrect_input">Morate uneti broj igraca i kocki</string>
+    <string name="incorrect_input">Morate uneti broj igrača i kocki</string>
     <string name="continue_button_text">Nastavite igru</string>
-    <string name="resetup_button_text">Vratite se na podesavanja</string>
+    <string name="resetup_button_text">Vratite se na podešavanja</string>
     <string name="back_text">Igra je pauzirana</string>
+    <string name="text_languages">Izaberite jezik</string>
+    <string name="language_english">Engleski</string>
+    <string name="langauge_serbian">Srpski</string>
 </resources>

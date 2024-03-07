@@ -9,7 +9,12 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.filip.pare.R
 import com.filip.pare.databinding.FragmentSetupBinding
+import com.filip.pare.language.Language
+import com.filip.pare.language.LanguageAdapter
 import com.filip.pare.main.MainFragment
+import com.google.android.flexbox.FlexDirection
+import com.google.android.flexbox.FlexboxLayoutManager
+import com.google.android.flexbox.JustifyContent
 
 class SetupFragment : Fragment() {
     private var binding: FragmentSetupBinding? = null
@@ -63,13 +68,34 @@ class SetupFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding?.btnSetup?.setOnClickListener {
-            when (isValidInput()) {
-                1 -> showToast(getString(R.string.incorrect_input))
-                2 -> showToast(getString(R.string.incorrect_player_count))
-                3 -> showToast(getString(R.string.incorrect_dice_count))
-                else -> setup()
+        binding?.apply {
+            btnSetup.setOnClickListener {
+                when (isValidInput()) {
+                    1 -> showToast(getString(R.string.incorrect_input))
+                    2 -> showToast(getString(R.string.incorrect_player_count))
+                    3 -> showToast(getString(R.string.incorrect_dice_count))
+                    else -> setup()
+                }
             }
+
+            rvLanguages.layoutManager = FlexboxLayoutManager(requireContext(), FlexDirection.ROW).apply {
+                justifyContent = JustifyContent.CENTER
+            }
+
+            val languageArr = arrayListOf(
+                Language(
+                    "Default",
+                    R.string.language_english,
+                    R.drawable.usa
+                ),
+                Language(
+                    "sr",
+                    R.string.langauge_serbian,
+                    R.drawable.serbia
+                )
+            )
+
+            rvLanguages.adapter = LanguageAdapter(languageArr)
         }
     }
 }
