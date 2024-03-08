@@ -123,7 +123,7 @@ class MainFragment : Fragment() {
             }
 
             btnReset.setOnClickListener {
-                model.winner = model.players.endGame()
+                model.winner = model.players.endGame(getString(R.string.draw_text), getString(R.string.winner_text))
                 if (model.winner !== null) {
                     requireActivity().supportFragmentManager
                         .beginTransaction()

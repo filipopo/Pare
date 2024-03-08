@@ -42,7 +42,7 @@ class Players(val players: ArrayList<Player>) {
             player.reset()
     }
 
-    fun endGame(): String? {
+    fun endGame(tie: String, winner: String): String? {
         var max = 0
         val winners = ArrayList<ArrayList<Int>>()
 
@@ -62,12 +62,12 @@ class Players(val players: ArrayList<Player>) {
         if (players[winners[max][0] - 1].totalScore == 0)
             return null
 
-        val winner = when {
-            winners[max].size > 1 -> "It's a tie between players ${winners[max].joinToString(", ")}!"
-            else -> "Player ${winners[max][0]} won with a score of ${players[winners[max][0] - 1].totalScore}!"
+        val result = when {
+            winners[max].size > 1 -> tie.format(winners[max].joinToString(", "))
+            else -> winner.format(winners[max][0], players[winners[max][0] - 1].totalScore)
         }
 
         currentPlayer = 1
-        return winner
+        return result
     }
 }

@@ -24,4 +24,6 @@ then hit the setup button on the bottom of this page"</string>
     <string name="text_languages">Choose a language</string>
     <string name="language_english">English</string>
     <string name="langauge_serbian">Serbian</string>
+    <string name="draw_text">It\'s a tie between players %1$s!</string>
+    <string name="winner_text">Player %1$s won with a score of %2$s!</string>
 </resources>

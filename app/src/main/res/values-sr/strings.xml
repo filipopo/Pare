@@ -23,4 +23,6 @@ onda kliknite setup dugme na dnu ove stranice"</string>
     <string name="text_languages">Izaberite jezik</string>
     <string name="language_english">Engleski</string>
     <string name="langauge_serbian">Srpski</string>
+    <string name="draw_text">Nerešeno izmedju igrača %1$s!</string>
+    <string name="winner_text">Igrac %1$s je pobedio sa rezultatom %2$s!</string>
 </resources>
