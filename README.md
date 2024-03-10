@@ -6,19 +6,19 @@ A dice rolling application with support for up to 99 players and 6 dice, when la
 </p>
 The main activity after completing the setup is a list of players with their current roll and total score, players can roll in sequence one by one or use the roll for all button which will roll for all players which haven't already rolled in that round, the list of players is scrollable
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/6f783775-3a6c-4318-a315-8b6bc18c15e2" width="250" alt="main screen">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/26079441-949b-4942-80ec-3ba85786cb1f" width="250" alt="main screen roll scrolled">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/50b0254d-ae6f-46a0-a0ff-96c4d61c0af8" width="250" alt="main screen">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/4a956a64-ebae-4f0f-9470-71ed99dfc9ae" width="250" alt="main screen roll scrolled">
 </p>
 Clicking on the reset button ends the game and finds out who the winner is, prompting the user to continue playing with the same settings or return back to the setup screen
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/d698e3f2-9749-473e-8a6a-7913e28b7e41" width="500" alt="winner screen">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/31c601c3-b249-4634-893d-2c52439ac99c" width="500" alt="winner screen">
 </p>
 The application also works in landscape mode and tells when the winning score is a tie (by which players)
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/7200e4cd-6e99-4622-a46f-ce1307646618" width="500" alt="main screen landscape"><br>
-  <img src="https://github.com/filipopo/Pare/assets/4060824/78cc4492-394e-48d8-b9b3-f38dc1ca5456" width="500" alt="main screen landscape roll scrolled">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/9c727d3a-fe24-43c1-9e6d-ced3371fa4ac" width="500" alt="main screen landscape"><br>
+  <img src="https://github.com/filipopo/Pare/assets/4060824/e9752fe6-cf70-4b3e-a5c2-aa29b244db7f" width="500" alt="main screen landscape roll scrolled">
 </p>
 The game can be paused at any time by using the back button, when the game is paused or won the roll buttons don't work
 <p float="left">
-  <img src="https://github.com/filipopo/Pare/assets/4060824/7308338d-64f8-43b4-84c0-11e1b7992ee3" width="500" alt="main screen paused roll">
+  <img src="https://github.com/filipopo/Pare/assets/4060824/19f05df9-d0d5-4f31-a1b6-d9c93259f49c" width="500" alt="main screen paused roll">
 </p>

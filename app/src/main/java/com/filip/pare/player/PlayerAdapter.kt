@@ -26,8 +26,20 @@ class PlayerAdapter (
     inner class PlayerViewHolder(private val binding: ItemScoresBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(player: Player) {
             binding.apply {
-                playerLast.text = itemView.context.getString(R.string.player_last, adapterPosition + 1, player.lastRoll)
-                playerTotal.text = itemView.context.getString(R.string.player_total, adapterPosition + 1, player.totalScore)
+                playerLast.text = itemView.context.getString(
+                    R.string.player_last,
+                    adapterPosition + 1,
+                    player.lastRoll
+                )
+
+                playerTotal.text = itemView.context.getString(
+                    R.string.player_total,
+                    adapterPosition + 1,
+                    player.totalScore
+                )
+
+                val padEnd = playerTotal.paint.measureText("a").toInt() * (13 - playerTotal.length())
+                playerTotal.setPadding(0, 0, padEnd.coerceAtLeast(0), 0)
             }
         }
     }
