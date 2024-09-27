@@ -1,5 +1,5 @@
 # Dicee
-A dice rolling application with support for up to 99 players and 6 dice, when launching the application you are greeted by a setup screen where the input is validated
+Dice rolling application made using Kotlin and Android studio with support for up to 99 players and 6 dice, when launching the application you are greeted by a setup screen where the input is validated and the locale can be selected
 <p float="left">
   <img src="https://github.com/filipopo/Pare/assets/4060824/0915f420-3088-4f7c-a1eb-a986872609f7" width="250" alt="setup screen">
   <img src="https://github.com/filipopo/Pare/assets/4060824/c20257ce-3645-496b-80bb-f929279dcf46" width="250" alt="setup screen validation">
